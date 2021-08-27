@@ -22,6 +22,12 @@
 -- select * from film where title like '%n'  order by length ASC limit 5
 -- select * from film where title like '%n' order by length DESC offset 5 limit 5
 -- select store_id from customer order by last_name DESC limit 4 
+------- Aggregate ------
+-- select avg (rental_rate) from film 
+-- select count (*) from film where title like 'C%'
+-- select max (length) from film where rental_rate = 0.99
+-- select count(distinct(replacement_cost)) from film where length >150  
+
 
 
 
