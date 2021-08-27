@@ -18,6 +18,10 @@
 -- select count (*) from film where title like 'T%' and rating ='G'
 -- select count(*) from country where country like '_____'
 -- select count(*) from city where city like '%R%r'
+------ Order , Limit and offset------
+-- select * from film where title like '%n'  order by length ASC limit 5
+-- select * from film where title like '%n' order by length DESC offset 5 limit 5
+-- select store_id from customer order by last_name DESC limit 4 
 
 
 
